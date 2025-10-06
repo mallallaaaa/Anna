@@ -1,0 +1,133 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #ffdde1, #ee9ca7);
+  text-align: center;
+  padding: 30px;
+  color: #333;
+}
+
+.container{
+    text-align: center;
+    font-size: 1.6em;
+    color:#444;
+    margin: 10px auto;
+    max-width: 700px;
+    line-height: 1.6;
+    border-radius:15px;
+    padding:10px 20px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+    background:white
+
+}
+
+h1{
+    color:fuchsia;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    
+}
+
+h2{
+    color:fuchsia;
+    font-style:italic;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.container2{
+    text-align: center;
+    font-size: 1.4em;
+    color:#444;
+    margin: 20px auto 50px;
+    max-width: 700px;
+    line-height: 1.6;
+    border-radius:15px;
+    padding:20px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+    background:white
+}
+
+/* Linea centrale */
+.timeline {
+  position: relative;
+  max-width: 900px;
+  margin: auto;
+  padding-bottom:100px;
+}
+
+.timeline::after {
+  content: '';
+  position:absolute;
+  width: 6px;
+  background-color: #d81b60;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+  z-index:0;
+}
+
+/* Contenitore blocchi */
+.container {
+  padding: 20px 40px;
+  position: relative;
+  width: 50%;
+  z-index: 1;
+}
+
+.container img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  position: relative;
+  z-index:1;
+}
+
+.container .content {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index:1;
+}
+
+#p1{color: fuchsia; font-size: 1.2em; font-style:italic;}
+#p2{color: fuchsia; font-size: 1.2em; font-style:italic;}
+#p3{color: fuchsia; font-size: 1.2em; font-style:italic;}
+#p4{color: fuchsia; font-size: 1.2em; font-style:italic;}
+#p5{color: fuchsia; font-size: 1.2em; font-style:italic;}
+#p6{color: fuchsia; font-size: 1.2em; font-style:italic;}
+#p7{color: fuchsia; font-size: 1.2em; font-style:italic;}
+#p8{color: fuchsia; font-size: 1.2em; font-style:italic;}
+
+/* Lato sinistro */
+.left {
+  left: -50%;
+  z-index:1;
+  margin-bottom:-100px;
+}
+
+/* Lato destro */
+.right {
+  left: 50%;
+  z-index:1;
+  margin-bottom:-100px;
+}
+
+/* Ultima al centro */
+.center {
+  width: 100%;
+  left: 0;
+  text-align: center;
+}
+
+.center .content {
+  max-width: 400px;
+  margin: auto;
+}
+
+/* Testo */
+p {
+  margin-top: 10px;
+  font-size: 1em;
+  color: #444;
+}
